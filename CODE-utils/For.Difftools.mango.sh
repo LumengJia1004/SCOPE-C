@@ -5,7 +5,7 @@ if [ $# -lt 5 ];then
 		    exit
 fi
 
-rmdBedpe=$1 ## white space, '.,\' are not allowed 
+rmdBedpe=$1 
 intra=$2 
 xgi=$3
 output=$4 
