@@ -5,7 +5,7 @@ if [ $# -lt 4 ];then
 		    exit
 fi
 
-index=$1 ## white space, '.,\' are not allowed 
+index=$1 
 R1=$2 
 R2=$3
 output=$4 
